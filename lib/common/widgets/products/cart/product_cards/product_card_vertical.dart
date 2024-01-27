@@ -80,17 +80,20 @@ class TProductCardVertical extends StatelessWidget {
 
             /// Details
             const Padding(
-              padding: EdgeInsets.only(left: TSizes.sm),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TProductTitleText(
-                    title: 'Green Nike Air Shoes',
-                    smallSize: true,
-                  ),
-                  SizedBox(height: TSizes.spaceBtwItems / 2),
-                  TBrandTitleWithVerifiedIcon(title: 'Nike'),
-                ],
+              padding: EdgeInsets.symmetric(horizontal: TSizes.sm),
+              child: SizedBox(
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TProductTitleText(
+                      title: 'Green Nike Air Shoes',
+                      smallSize: true,
+                    ),
+                    SizedBox(height: TSizes.spaceBtwItems / 2),
+                    TBrandTitleWithVerifiedIcon(title: 'Nike'),
+                  ],
+                ),
               ),
             ),
             const Spacer(),
