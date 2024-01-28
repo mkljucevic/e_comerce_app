@@ -1,7 +1,7 @@
 import 'package:ecomerce_app/common/widgets/appbar/appbar.dart';
 import 'package:ecomerce_app/common/widgets/icons/t_circular_icon.dart';
 import 'package:ecomerce_app/common/widgets/layouts/grid_layout.dart';
-import 'package:ecomerce_app/common/widgets/products/cart/product_cards/product_card_vertical.dart';
+import 'package:ecomerce_app/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:ecomerce_app/features/shop/screens/home/home.dart';
 import 'package:ecomerce_app/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';

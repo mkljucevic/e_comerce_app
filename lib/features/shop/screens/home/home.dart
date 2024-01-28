@@ -1,7 +1,7 @@
 import 'package:ecomerce_app/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:ecomerce_app/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:ecomerce_app/common/widgets/layouts/grid_layout.dart';
-import 'package:ecomerce_app/common/widgets/products/cart/product_cards/product_card_vertical.dart';
+import 'package:ecomerce_app/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:ecomerce_app/common/widgets/texts/section_heading.dart';
 import 'package:ecomerce_app/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:ecomerce_app/features/shop/screens/home/widgets/home_categories.dart';
