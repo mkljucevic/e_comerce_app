@@ -3,7 +3,7 @@ import 'package:ecomerce_app/common/widgets/appbar/tabbar.dart';
 import 'package:ecomerce_app/common/widgets/brands/brand_card.dart';
 import 'package:ecomerce_app/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:ecomerce_app/common/widgets/layouts/grid_layout.dart';
-import 'package:ecomerce_app/common/widgets/products/cart_menu_icon.dart';
+import 'package:ecomerce_app/common/widgets/products/cart/cart_menu_icon.dart';
 import 'package:ecomerce_app/common/widgets/texts/section_heading.dart';
 import 'package:ecomerce_app/features/shop/screens/store/widgets/category_tab.dart';
 import 'package:ecomerce_app/utils/constants/colors.dart';
