@@ -12,6 +12,8 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
+
+      /// Show loader of circular progress indicator meanwhile authentication repository is deciding to show relevant screen
       home: const OnBoardingScreen(),
     );
   }
