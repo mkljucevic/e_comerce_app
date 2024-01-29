@@ -5,6 +5,7 @@ import 'package:ecomerce_app/common/widgets/list_tiles/user_profile_title.dart';
 import 'package:ecomerce_app/common/widgets/texts/section_heading.dart';
 import 'package:ecomerce_app/features/personalization/screens/address/address.dart';
 import 'package:ecomerce_app/features/personalization/screens/profile/profile.dart';
+import 'package:ecomerce_app/features/shop/screens/order/order.dart';
 import 'package:ecomerce_app/utils/constants/colors.dart';
 import 'package:ecomerce_app/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -71,7 +72,7 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subTitle: 'In-profress and compleated orders',
-                    onTap: () {},
+                    onTap: () => Get.to(() => const OrderScreen()),
                   ),
                   TSettingsMenuTile(
                     icon: Iconsax.bank,
